@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float sub[100],sum=0,avg;
+int i,n;
+clrscr();
+printf("enter the number of total subject marks\n");
+scanf("%d",&n);
+printf("enter the number:\n");
+for(i=0;i<n;i++);
+{
+scanf("%f",sub[i]);
+}
+for(i=0;i<n;i++);
+{
+sum=sum+sub[i];
+}
+avg=sum/n;
+printf("the total of sub %f",sum);
+printf("the averg of sub %f",avg);
+getch();
+return 0;
+}
